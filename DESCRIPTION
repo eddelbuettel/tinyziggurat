@@ -1,0 +1,18 @@
+Package: tinyziggurat
+Type: Package
+Title: Header-only Implementation of "Ziggurat" Random Number Generator
+Version: 0.0.1
+Date: 2021-07-11
+Author: Dirk Eddelbuettel
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Description: The Ziggurat generator for normally distributed random
+ numbers, originally proposed by Marsaglia and Tsang (2000, 
+ <doi:10.18637/jss.v005.i08>) has been improved upon a few times
+ starting with Leong et al (2005, <doi:10.18637/jss.v012.i07>).
+ While the sibbling package 'RcppZiggurat' provides an aggregation
+ in order to compare different implementations, it also introduces
+ build-dependencies which this package avoids.
+License: GPL (>= 2)
+Enhances: RcppZiggurat
+URL: https://github.com/eddelbuettel/tinyziggurat
+BugReports: https://github.com/eddelbuettel/tinyziggurat/issues
